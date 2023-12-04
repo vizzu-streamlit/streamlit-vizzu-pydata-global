@@ -1,12 +1,16 @@
 # Welcome to Vizzu + Streamlit!
 
-[![Open in Streamlit](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://pydata-global.streamlit.app/)
+<a href="https://pydata-global.streamlit.app/" target="_blank">
+    <img src="https://static.streamlit.io/badges/streamlit_badge_black_white.svg" alt="Open in Streamlit">
+</a>
 
-[![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://share.streamlit.io/create-from-fork?owner=blackary&repository=streamlit-vizzu-pydata-global&branch=main&mainModule=streamlit_app.py)
+<a href="https://share.streamlit.io/create-from-fork?owner=blackary&repository=streamlit-vizzu-pydata-global&branch=main&mainModule=streamlit_app.py" target="_blank">
+    <img src="https://github.com/codespaces/badge.svg" alt="Open in GitHub Codespaces">
+</a>
 
 # Make your own fork of this app in Codespaces
 
-Step 1:  Click the "Open in Github Codespaces" button above and then click Fork!
+Step 1: Click the "Open in Github Codespaces" button above and then click Fork!
 
 ![image](https://github.com/blackary/streamlit-vizzu-pydata-global/assets/4040678/f4a9d972-cae6-4aa2-8b9a-2e18f513759a)
 
