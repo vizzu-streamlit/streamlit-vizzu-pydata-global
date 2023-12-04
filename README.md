@@ -4,6 +4,8 @@
     <img src="https://static.streamlit.io/badges/streamlit_badge_black_white.svg" alt="Open in Streamlit">
 </a>
 
+<br/>
+
 <a href="https://share.streamlit.io/create-from-fork?owner=blackary&repository=streamlit-vizzu-pydata-global&branch=main&mainModule=streamlit_app.py" target="_blank">
     <img src="https://github.com/codespaces/badge.svg" alt="Open in GitHub Codespaces">
 </a>
