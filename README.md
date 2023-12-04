@@ -2,8 +2,6 @@
 
 [![Open in Streamlit](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://pydata-global.streamlit.app/)
 
-<br/>
-
 [![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://share.streamlit.io/create-from-fork?owner=blackary&repository=streamlit-vizzu-pydata-global&branch=main&mainModule=streamlit_app.py)
 
 # Make your own fork of this app in Codespaces
