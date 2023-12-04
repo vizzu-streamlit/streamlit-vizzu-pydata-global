@@ -36,7 +36,7 @@ Step 4: Pick a chart you like and expand the "Show code" expander and press the 
 
 <img width="519" alt="image" src="https://github.com/blackary/streamlit-vizzu-pydata-global/assets/4040678/1b3f24c7-b88a-4d08-a4e2-1a127e26eca4">
 
-Step 5: Go back to the Codespaces instance, and add a new file in the pages/ folder called `charts.py`.
+Step 5: Go back to the Codespaces instance, and add a new file in the pages/ folder called `my_chart.py`.
 
 <img width="330" alt="image" src="https://github.com/blackary/streamlit-vizzu-pydata-global/assets/4040678/47c3d21e-15bd-4e2a-a86c-4fbe70b939f6">
 
