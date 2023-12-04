@@ -3,6 +3,8 @@ from streamlit_vizzu import VizzuChart, Data, Config
 import streamlit as st
 import pandas as pd
 
+st.set_page_config(initial_sidebar_state="expanded")
+
 df = pd.read_csv("sales.csv")
 data = Data()
 data.add_df(df)
