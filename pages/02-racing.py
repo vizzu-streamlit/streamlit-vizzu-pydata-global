@@ -1,4 +1,4 @@
-from streamlit_vizzu import VizzuChart, Data, Config
+from streamlit_vizzu import VizzuChart, Data, Config, Style
 
 import streamlit as st
 import pandas as pd
@@ -8,20 +8,31 @@ data = Data()
 data.add_df(df)
 
 chart = VizzuChart()
-chart.feature("tooltip", True)
 chart.animate(data)
 
 chart.animate(
-    Data.filter(None),
+	#Data.filter(f"record['Year'] == df['Year'].min()")
     Config(
         {
-            "coordSystem": "cartesian",
-            "geometry": "rectangle",
             "x": "Revenue[$]",
-            "y": {"set": "Country"},
-            "orientation": "vertical",
+            "y": "Country",
+			"label": "Revenue[$]",
         }
     ),
+	Style({
+        "plot": {
+			"yAxis": {"label": {"numberScale": "shortScaleSymbolUS"}},
+			"xAxis": {"label": {"numberScale": "shortScaleSymbolUS"}},
+			"marker": {
+				"label": {
+					"numberFormat": "prefixed",
+					"maxFractionDigits": "1",
+					"numberScale": "shortScaleSymbolUS",
+				},
+			}
+		}
+	}),
+    delay="0"
 )
 
 st.title("Sales by country")
@@ -42,6 +53,6 @@ year = st.slider(
 
 filter = Data.filter(f"record['Year'] == {year}")
 
-chart.animate(Config(config), filter)
+chart.animate(Config(config), filter, delay="0", x={"easing": "linear"}, )
 
 chart.show()
